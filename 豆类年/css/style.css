@@ -167,7 +167,7 @@ ul.tabs li.active a{
 color:#e44b3d;
 }
 
-ul.tabs li a{ 
+ul.tabs li a{
 color:#666;
 font-size:12px;
 text-decoration:none;
@@ -188,8 +188,8 @@ line-height:23px;
 /* Drop cap */
 
 span.dropcap { float:left; font-size:58px; color:#e44b3d;padding:0 5px 5px 0; margin-top:20px}
- 
- 
+
+
 
 /* lists styles */
 
@@ -216,7 +216,7 @@ span.dropcap { float:left; font-size:58px; color:#e44b3d;padding:0 5px 5px 0; ma
 
 /* progress bar */
 
-.meter { 
+.meter {
 height: 15px;  /* Can be anything */
 position: relative;
 background: #f2f2f2;
@@ -254,23 +254,23 @@ overflow: hidden;
 content: "";
 position: absolute;
 top: 0; left: 0; bottom: 0; right: 0;
-background-image: 
-   -webkit-gradient(linear, 0 0, 100% 100%, 
-      color-stop(.25, rgba(255, 255, 255, .2)), 
-      color-stop(.25, transparent), color-stop(.5, transparent), 
-      color-stop(.5, rgba(255, 255, 255, .2)), 
-      color-stop(.75, rgba(255, 255, 255, .2)), 
+background-image:
+   -webkit-gradient(linear, 0 0, 100% 100%,
+      color-stop(.25, rgba(255, 255, 255, .2)),
+      color-stop(.25, transparent), color-stop(.5, transparent),
+      color-stop(.5, rgba(255, 255, 255, .2)),
+      color-stop(.75, rgba(255, 255, 255, .2)),
       color-stop(.75, transparent), to(transparent)
    );
-background-image: 
+background-image:
 	-moz-linear-gradient(
-	  -45deg, 
-      rgba(255, 255, 255, .2) 25%, 
-      transparent 25%, 
-      transparent 50%, 
-      rgba(255, 255, 255, .2) 50%, 
-      rgba(255, 255, 255, .2) 75%, 
-      transparent 75%, 
+	  -45deg,
+      rgba(255, 255, 255, .2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, .2) 50%,
+      rgba(255, 255, 255, .2) 75%,
+      transparent 75%,
       transparent
    );
 z-index: 1;
@@ -293,7 +293,7 @@ background-size: 50px 50px;
          border-bottom-left-radius: 20px;
 overflow: hidden;
 		}
-		
+
 .animate > span:after {
 	display: none;
 }
@@ -315,8 +315,8 @@ overflow: hidden;
        background-position: 50px 50px;
     }
 }
-		
-	
+
+
 .nostripes > span > span, .nostripes > span:after {
 	-webkit-animation: none;
 	-moz-animation: none;
@@ -325,7 +325,7 @@ overflow: hidden;
 
 .green > span {
 	background-color:#63a69f;
-	
+
 }
 
 .red > span {
@@ -359,7 +359,7 @@ overflow: hidden;
 			 -o-transition: all .5s ease-in-out;
 				transition: all .5s ease-in-out;
 		    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /* this works in IE8 only */
-	
+
 }
 .video-image {
   background: url("../img/video.png") no-repeat left;
@@ -392,7 +392,7 @@ overflow: hidden;
 	-ms-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
 	transition: all .5s ease-in-out;
-			
+
 }
 
 .video-text {
@@ -408,7 +408,7 @@ overflow: hidden;
   -ms-transition: all .5s ease-in-out;
    -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /* this works in IE8 only */			
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /* this works in IE8 only */
 }
 
 .hover:hover img{opacity:0.8;
@@ -464,6 +464,11 @@ header{border-bottom:2px solid #63a69f;background:url(../img/header_bg.png); }
 header section.social {padding-top:10px;}
 header section.social ul{float:right;height:10px;}
 header .social ul li {display:inline;}
+
+header div.bshare-custom {padding-top:10px;}
+header div.bshare-custom a, span.bshare-share-count {float:right;height:10px;   margin-bottom: 10px;}
+
+
 header .logo{float:left;height:113px;}
 
 
@@ -493,10 +498,10 @@ background:#58978c url(../img/menu-bg-righ.png) no-repeat right; color:#fff;
 }
 
 .ddsmoothmenu ul li a:hover{
-background:#58978c url(../img/menu-bg-righ.png) no-repeat right; 
+background:#58978c url(../img/menu-bg-righ.png) no-repeat right;
 color:#fff;
 }
-	
+
 /*1st sub level menu*/
 .ddsmoothmenu ul li ul{
 position: absolute;
@@ -509,7 +514,7 @@ visibility: hidden;
 .ddsmoothmenu ul li ul li{
 display: list-item;
 float: none;
-background:#58978c url(../img/menu-bg-righ.png) no-repeat right; 
+background:#58978c url(../img/menu-bg-righ.png) no-repeat right;
 border-top:1px solid #63a69f;
 }
 
@@ -533,10 +538,10 @@ border-bottom: 1px solid gray;
 }
 /* Holly Hack for IE \*/
 * html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
- 
- 
- 
- 
+
+
+
+
 /* Content area */
 
 .content{
@@ -550,7 +555,7 @@ padding-bottom:30px;
 /* Home page blocks */
 
 section.blocks{margin-top:20px;}
-.blocks section  figure { float:left;width:100%; text-align:center;margin-bottom:12px; } 
+.blocks section  figure { float:left;width:100%; text-align:center;margin-bottom:12px; }
 .blocks h3 { text-align:center;top:10px;}
 .blocks h3  a {color:#e64d3f;}
 .blocks p { width:250px;margin-left:40px; margin-top:5px;float:left;}
@@ -671,7 +676,7 @@ ul#portfolio-sorting>li>.port>article.port-content>.pcontent>ul.p-info li {heigh
 			-ms-transition: all .5s ease-in-out;
 			 -o-transition: all .5s ease-in-out;
 				transition: all .5s ease-in-out;
-				
+
 }
 
 
@@ -683,8 +688,8 @@ ul#portfolio-sorting>li>.port>article.port-content>.pcontent>ul.p-info li {heigh
 			-ms-transition: all .5s ease-in-out;
 			 -o-transition: all .5s ease-in-out;
 				transition: all .5s ease-in-out;
-	
-                         
+
+
 }
 
 
@@ -710,7 +715,7 @@ ul#portfolio-sorting>li>.port>article.port-content>.pcontent>ul.p-info li {heigh
  -o-transition: all .7s ease-in-out;
 transition: all .7s ease-in-out;
 }
-			
+
 .port:hover img{opacity:0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)"; /* this works in IE8 only */
 
@@ -879,7 +884,7 @@ margin-left:0;
 	padding:15px 15px 10px 30px;
 	}
 
-	
+
 #mail_fail{background:#f9e5e6;width:500px;padding:10px 15px 10px 45px;
 	margin-top:20px;
     border-radius: 3px;
@@ -892,7 +897,7 @@ margin-left:0;
 	clear:both;
 	float:left;
 	width:500px;
-	
+
 }
 
 /*Google map styling */
@@ -1022,7 +1027,7 @@ color:#e54c3e;;
 }
 
 
-		
+
 @media screen and (max-width: 1024px){
 
 .nivoSlider{height:100%;}
