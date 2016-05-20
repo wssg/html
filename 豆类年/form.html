@@ -1,22 +1,22 @@
 <!doctype html>
 	<head>
-	<link rel="stylesheet" href="./css/reset.css" />
-	<link rel="stylesheet" href="./css/960.css" />
+	<link rel="stylesheet" href="./css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="./css/960.css" type="text/css" />
 
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css' />
 	<link href='http://fonts.googleapis.com/css?family=Share' rel='stylesheet' type='text/css' />
-	
+
 		<!-- html 5 shim + modernizer -->
 		<script src="./js/modernizr.js"></script>
-	
+
 		<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 		<![endif]-->
-	
-	
-	
+
+
+
 	<style>
 body{width:300px;overflow:hidden;}
 .footer_contact{padding-left:38px;position:relative;}
@@ -45,8 +45,8 @@ width:100%;
 height:100%;
 }
 </style>
-	
-	
+
+
 		<!--[if lt IE 9]>
 <style>
 .footer_contact iframe {
@@ -58,7 +58,7 @@ margin-top:0;
 .submit_button {
 float: left;
 margin-left:180px;
-}	
+}
 
 .c_forms{
 overflow:visible;
@@ -76,14 +76,14 @@ float:left;
 
 	<script>
 	$(function(){
-	
+
 /*
 Contact Page
 ----------------------------------------*/
 // Contact Form
 
 	$('#send_message').click(function(e){
-	
+
         e.preventDefault();
         var error = false;
         var name = $('#name').val();
@@ -121,7 +121,7 @@ Contact Page
 				if(result == 'sent'){
 				$('#send_message').attr({'disabled' : 'true', 'value' : 'Sent' });
                 }else{
-				$('#message').attr('value', 'Server Error <br/> Try again');                   
+				$('#message').attr('value', 'Server Error <br/> Try again');
 				$('#send_message').removeAttr('disabled').attr('value', 'Send');
                 }
             });
@@ -129,11 +129,11 @@ Contact Page
     });
 
 });
-	
+
 </script>
 
 </head>
-	
+
 <body style="background:transparent">
 
 	<section class="grid_4 footer_contact">
@@ -144,20 +144,20 @@ Contact Page
 						<input type="text" name="name" id="name" size="22" />
 
 					</p>
-	
+
 					<p class="input_block">
 						<label for="email">Your Email: </label>
 						<input type="text" name="email" id="email" size="22" />
-						
+
 					</p>
 					<p class="input_block">
 					<label for="message" class="message_label">Message: </label>
-					<textarea name="message" id="message"></textarea>	
-					</p>	
-							
+					<textarea name="message" id="message"></textarea>
+					</p>
+
 					<input type="submit" id="send_message" class="submit_button" value="Send" />
-				
+
 		</form>
-		
+
 	</section>
 </body>
